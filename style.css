@@ -594,3 +594,8 @@ margin-top: 20px;
 .line p .terms{
     margin-left: 700px;
 }
+
+
+.friends {
+    display: none;
+}
