@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Inter", serif;
+}
 
 :root {
     --neutral-0-white: #fff
@@ -36,6 +39,27 @@
     height: 100%;
 }
 
+.reel .reel-card {
+    position: relative;
+    width: 380px;
+    height: 484px;
+    border-radius: 16px;
+    margin: 0 18px;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 50%, rgba(0, 0, 0, 0.60) 100%), url("./image/pexels-max-rahubovskiy-7031406.jpg"), lightgray 0px -7px / 100% 117.769% no-repeat;
+    background-position: center;
+}
+
+
+.reel-1 {
+    position: absolute;
+    bottom: 0;
+    margin-left: 37px;
+}
+
+.sm-f-16 {
+    font-size: 16px;
+}
 
 @media (min-width: 476px) {
 
@@ -47,7 +71,6 @@
 
     .sec-3 .papu h2 {
         color: #121212;
-
         /* Font Responsive/H 1/Semi Bold */
         font-family: Inter;
         font-size: 28px;
@@ -82,6 +105,16 @@
 
 /*X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+
+    .lg-f-24 {
+        font-size: 24px;
+    }
+
+    .sec-3 .papu h2 {
+        font-size: 48px;
+        font-weight: 600;
+    }
+
     .main-1 {
         background: url(image/hero_image_01.jpg);
         height: 100vh;
@@ -201,36 +234,23 @@
         line-height: 140%; /* 33.6px */
     }
 
-    .sec-3 span {
-        margin-left: 187px;
-        margin-top: 100px;
+    .sec-3 .red-btn {
         display: inline-flex;
-        padding: 20px 40px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        border-radius: 80px;
         background: var(--pink-400-default, #ED4D55);
         color: var(--neutral-0-white, #FFF);
         text-align: center;
-
+        padding: 14px 40px;
         /* Font Website/Body 1/Medium */
         font-family: Inter;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
-        line-height: 140%; /* 28px */
+        border-radius: 30px;
+        cursor: pointer;
     }
 
     .reel {
         margin-top: 40px;
-    }
-
-
-    .reel-1 {
-        position: relative;
-        bottom: 88px;
-        margin-left: 37px;
     }
 
     .reel-1 h5 {
