@@ -13,6 +13,11 @@ body {
 }
 
 
+
+
+
+
+
 /* X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap*/
 
@@ -40,7 +45,43 @@ body {
 }
 
 
+.navbar-brand{
+    color: var(--neutral-0-white, #FFF);
+    font-family: "Poppins";
+    font-size: 20.936px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+
+
+.nav-end{
+    list-style-type: none;
+    margin-top: 20px;
+    
+}
+
+.nav-end a{
+    color: white;
+    text-decoration: none;
+   
+
+/* Font Website/Body 2/Medium */
+font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 25.2px */
+}
+
+
+
 @media (min-width: 476px) {
+
+
+
 
 
     .hero-inner h1{
@@ -102,6 +143,7 @@ border: 1px solid #FFF;
 
     .hero-2 .row .wallet-header {
         margin-left: 20px;
+        text-align: start;
     }
 
     .sec-3 {
@@ -632,8 +674,12 @@ font-weight: 500;
 line-height: 140%; /* 19.6px */
 }
 
-
+.wallet img {
+    width: 24px;
+    height: 24px;
+    margin-top: 20px;
     
+}
 }
 
 
@@ -654,6 +700,31 @@ line-height: 140%; /* 19.6px */
 
 /*X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+
+    .nav-between{
+        list-style-type: none;
+        margin-top: 20px;
+        margin-left: 120px;
+    }
+    
+    .nav-between li a{
+        color: white;
+        text-decoration: none;
+       
+    
+    /* Font Website/Body 2/Medium */
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 25.2px */
+    }
+
+    .img-nav{
+        margin-right: 200px;
+    }
+
+
 
     .lg-f-24 {
         font-size: 24px;
@@ -750,6 +821,7 @@ line-height: 140%; /* 19.6px */
     .wallet-header {
         margin-top: 29px;
         margin-left: 44px;
+        text-align: start;
     }
 
     .sec-3 {
