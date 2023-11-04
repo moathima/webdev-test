@@ -1,8 +1,4 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+
 
 body {
     font-family: "Inter", serif;
@@ -55,16 +51,19 @@ body {
     
 }
 
-
-
-.nav-end{
+.nav-between ul{
     list-style-type: none;
-    margin-top: 20px;
-    
 }
 
-.nav-end a{
-    color: white;
+.nav-end ul{
+    list-style-type: none;
+}
+
+
+
+
+.nav-end ul li a{
+    color:white;
     text-decoration: none;
    
 
@@ -701,6 +700,7 @@ line-height: 140%; /* 19.6px */
 /*X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 
+    
     .nav-between{
         list-style-type: none;
         margin-top: 20px;
@@ -719,6 +719,11 @@ line-height: 140%; /* 19.6px */
     font-weight: 500;
     line-height: 140%; /* 25.2px */
     }
+
+    .Countries {
+        
+    }
+    
 
     .img-nav{
         margin-right: 200px;
@@ -1488,11 +1493,13 @@ margin-left: 20px;
 
 
 
-
-
 }
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
+
+    
+
+
 
 }
