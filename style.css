@@ -1,12 +1,16 @@
 
 
+
+
+
+
 .main-1{
     background:url(image/hero-img-2.png);
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
 background-position: bottom;
-object-fit: contain;
+background-size: cover;
 }
 
 
@@ -47,22 +51,91 @@ color: white;
 @media (min-width: 375px) { 
     
     .main-1{
-        background-position: top;
+        
+        background-size: cover;
        
     }
     
     .flag{
         margin-left: 150px;
+        
     }
 
     .hero-inner{
-        margin-top: 112px;
+        margin-top: 113px;
+    }
+
+    .hero-inner h1{
+        color: #FFF;
+text-align: center;
+/* Font Responsive/Display/Semi Bold */
+font-family: "Inter";
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 44.8px */
+    }
+
+    .hero-inner p{
+        color: #E7E7E7;
+text-align: center;
+margin-top: 24px;
+
+/* Font Responsive/Body 3/Medium */
+font-family: "Inter";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 22.4px */
+    }
+
+
+    .hero-inner .two-btn{
+        margin-top: 67px;
+        
+    }
+
+    .two-btn .bg-danger{
+
+text-align: center;
+border-radius: 30px;
+
+padding: 16px 32px;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+/* Font Responsive/Body 3/Medium */
+font-family: "Inter";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 22.4px */
+    }
+
+    .two-btn .bg-transparent{
+        text-align: center;
+border-radius: 30px;
+border: 1px solid #FFF;
+padding: 16px 32px;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+/* Font Responsive/Body 3/Medium */
+font-family: "Inter";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 22.4px */
+    }
+
+    .wallet .wallet-header{
+        margin-top: 32px;
     }
 
     .wallet img{
         width: 24px;
         height: 24px;
-        margin-top: 30px;
+        margin-top: 48px;
         margin-right: 16px;
     }
 
@@ -90,6 +163,7 @@ line-height: 140%; /* 19.6px */
 
     .sec-3{
         margin-top: 60px;
+        margin-left: 20px;
         
     }
 
@@ -116,8 +190,6 @@ line-height: 140%; /* 22.4px */
     }
 
 
-  
-
    
     
     .reel-1 {
@@ -125,6 +197,7 @@ line-height: 140%; /* 22.4px */
         width:334px;
 height: 426px;
 background-repeat: no-repeat;
+border-radius: 16px;
 
 
     }
@@ -135,12 +208,13 @@ background-repeat: no-repeat;
         width: 334px;
         height: 426px;
         background-repeat: no-repeat;
-        
+        border-radius: 16px;
     
 
     }
 
     .reel-3{
+        border-radius: 16px;
         background: url(image/house-ice.png);
         width: 334px;
         height: 426px;
@@ -150,9 +224,11 @@ background-repeat: no-repeat;
     }
 
     .header-reel{
-        margin-top: 345px;
-        margin-left: 20px;
+        margin-top: 320px;
+    margin-left: 44px;
+    text-align: start;
     }
+
 
     .header-reel h5{
         color: #FFF;
@@ -177,7 +253,7 @@ line-height: 140%; /* 22.4px */
     }
 
     .reel button{
-    margin-left: 100px;
+    margin-left: 50px;
     border-radius: 30px;
     margin-top: 32px;
 
@@ -267,6 +343,10 @@ font-weight: 500;
 line-height: 140%; /* 19.6px */
     }
 
+    .sec-6{
+        margin-left: 25px;
+    }
+
     .our-reel{
         margin-top: 60px;
     }
@@ -303,7 +383,7 @@ line-height: 140%; /* 22.4px */
 height: 370px;
 flex-shrink: 0;
 background-repeat: no-repeat;
-margin-left: 50px;
+
 border-radius: 16px;
     }
 
@@ -313,7 +393,7 @@ border-radius: 16px;
 height: 370px;
 flex-shrink: 0;
 background-repeat: no-repeat;
-margin-left: 50px;
+
 border-radius: 16px;
     }
 
@@ -323,7 +403,7 @@ border-radius: 16px;
 height: 370px;
 flex-shrink: 0;
 background-repeat: no-repeat;
-margin-left: 50px;
+
 border-radius: 16px;
     }
 
@@ -341,10 +421,10 @@ line-height: 140%; /* 25.2px */
 
      .btn-our{
         border-radius: 30px;
-        display: inline-flex;
-height: 44px;
+
+margin-left: 90px;
 padding: 16px 56px;
-justify-content: center;
+
 align-items: center;
 gap: 10px;
 flex-shrink: 0;
@@ -362,12 +442,10 @@ line-height: 140%; /* 22.4px */
 
      .sec-7{
         margin-top: 60px;
-    
+    border-radius: 16px;
      }
 
-     .sec-7 .container{
-        border-radius: 16px;
-     }
+     
 
      .sec-7 .text-mobile{
         margin-top: 32px;
@@ -412,7 +490,9 @@ margin-top: 32px;
 
      .mobile{
         position: relative;
-        top:10px
+        top:10px;
+        
+
         
         
        }
@@ -420,9 +500,7 @@ margin-top: 32px;
        .mobile .mobile-1{
         width: 130.7px;
         height: 200.263px;
-        flex-shrink: 0;
-       right:310px;
-       position: absolute;
+      
        
        
        
@@ -432,9 +510,7 @@ margin-top: 32px;
        .mobile .mobile-2{
         width: 130.7px;
         height: 200.263px;
-        right: 50px;
-       flex-shrink: 0;
-       position: relative;
+       
        
        
        }
@@ -611,7 +687,7 @@ height: 16px;
     }
 
     footer .yallabook{
-        margin-left: 170px;
+        margin-left: 100px;
     }
 
     footer .row .col-12{
@@ -716,16 +792,16 @@ line-height: 140%; /* 28px */
 }
 
 .footer-app button{
-    display: flex;
-height: 52px;
+    
+
 padding: 8px 56px;
-justify-content: center;
+
 align-items: center;
 gap: 10px;
 border-radius: 26px;
 background: var(--neutral-0-white, #FFF);
 color: var(--text-main-text, #121212);
-margin-left: 117px;
+margin-bottom: 62px;
 /* Font Website/Body 2/Medium */
 font-family: "Inter";
 font-size: 18px;
@@ -741,9 +817,7 @@ flex-shrink: 0;
 background: var(--text-secondary-text, #808080);
 }
 
-.terms{
-    margin-right: 300px;
-}
+
 
 .terms span{
     color: var(--text-secondary-text, #808080);
@@ -754,7 +828,7 @@ font-size: 14px;
 font-style: normal;
 font-weight: 500;
 
-margin-left: 580px;
+
 
 }
 
@@ -815,7 +889,7 @@ line-height: 140%; /* 25.2px */
     .hero-inner h1{
         color: var(--neutral-0-white, #FFF);
 text-align: center;
-
+margin-top: 20px;
 /* Font Website/Display/Semi Bold */
 font-family: "Inter";
 font-size: 72px;
@@ -874,6 +948,7 @@ gap: 10px;
 
     .hero-inner .two-btn{
         margin-top: 56px;
+        
     }
 
     .wallet img{
@@ -912,6 +987,8 @@ line-height: 140%; /* 25.2px */
 
     .sec-3{
         margin-top: 74px;
+        margin-left: 117px;
+        
     }
  
 .sec-3 .papu{
@@ -925,17 +1002,26 @@ font-weight: 600;
 line-height: 140%; /* 67.2px */
 }
 
+
+.sec-3 .papu-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    
+
+}
+
 .sec-3 p{
     color: var(--text-secondary-text, #808080);
-text-align: center;
-margin-top: 24px;
+
+
 /* Font Website/H2/Regular */
 font-family: "Inter";
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: 140%; /* 33.6px */
-display: inline-flex;
+
 }
 
 .sec-3 .col-2 button{
@@ -943,10 +1029,8 @@ display: inline-flex;
     border-radius: 30px;
 background: var(--pink-400-default, #ED4D55);
 padding: 14px 25px;
-display: inline-flex;
-justify-content: center;
-align-items: center;
-gap: 10px;
+
+margin-bottom: 20px;
 text-align: center;
 /* Font Website/Body 1/Medium */
 font-family: "Inter";
@@ -954,25 +1038,27 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 140%; /* 28px */
-margin-top: 10px;
-margin-left: 5px;
-}
-
-
-.reel .row{
-    margin-top: 40px;
 
 }
 
+
+
+.reel .row {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
 
 
 .reel-1{
     background: url(image/road.png);
     background-repeat: no-repeat;
-    width: 380px;
+    width: 378px;
     border-radius: 16px;
     height: 484px;
-    margin-right: 32px;
+
     
     
     
@@ -982,7 +1068,7 @@ margin-left: 5px;
 .reel-2{
     background: url(image/mount\ ice.png);
     background-repeat: no-repeat;
-    width: 380px;
+    width: 378px;
     height: 484px;
     border-radius: 16px;
     
@@ -994,9 +1080,9 @@ margin-left: 5px;
 .reel-3{
     background: url(image/house-ice.png);
     background-repeat: no-repeat;
-    width: 380px;
+    width: 378px;
     height: 484px;
-margin-left: 32px;
+
     border-radius: 16px;
     
 }
@@ -1139,7 +1225,10 @@ line-height: 140%; /* 33.6px */
 
 .sec-6 {
 
-    margin-top: 16px;
+margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -1149,7 +1238,8 @@ line-height: 140%; /* 33.6px */
     background-repeat: no-repeat;
     width: 378px;
     height: 418px;
-    margin-right: 32px;
+    margin-top: 40px;
+
 }
 
 .sec-6 .reel-5{
@@ -1157,6 +1247,7 @@ line-height: 140%; /* 33.6px */
     background-repeat: no-repeat;
     width: 378px;
     height: 418px;
+    margin-top: 40px;
 }
 
 .sec-6 .reel-6{
@@ -1164,12 +1255,13 @@ background: url(image/travell-man.png);
 background-repeat: no-repeat;
     width: 378px;
     height: 418px;
-    margin-left: 32px;
+    margin-top: 40px;
+    
 }
 
 .sec-6 .text-reel p{
-    margin-top: 319px;
-    margin-left: 10px;
+    margin-top: 285px;
+    margin-left: 20px;
 
     color: var(--neutral-0-white, #FFF);
 
@@ -1193,6 +1285,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 140%; /* 28px */
+margin-left: 500px;
 
 gap: 10px;
 }
@@ -1217,7 +1310,7 @@ gap: 10px;
 
 .mobile{
  position: relative;
- left: 800px;
+ left: 899px;
 }
 
 .mobile .mobile-1{
@@ -1241,10 +1334,11 @@ right:50px;
 
 }
 
-.sec-7 .container{
-    height: 100vh;
+.sec-7{
     border-radius: 16px;
+    height: 100vh;
 }
+
 
 
 .sec-7 .text-mobile{
@@ -1372,15 +1466,11 @@ font-weight: 500;
 line-height: 120%; /* 33.6px */
 }
 
-.abram-2{
-    height:297px;
     
-}
+    
 
-.abram-2 .name-person{
-    position: relative;
-    bottom: 50px;
-}
+
+
 
 .sec-9{
     margin-top: 120px;

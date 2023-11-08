@@ -1,0 +1,560 @@
+.main-1{
+    background: url(image/hero-image-3.png);
+    background-repeat: no-repeat;
+    height:auto;
+    width: 100%;
+    background-size: cover;
+
+}
+
+main{
+    overflow: hidden;
+}
+
+
+
+body {
+    font-family: "Inter", serif;
+}
+
+
+
+
+
+
+
+.nav-end{
+    list-style-type: none;
+    margin-top: 20px;
+    
+}
+
+.nav-end a{
+    color: white;
+    text-decoration: none;
+   
+
+/* Font Website/Body 2/Medium */
+font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 25.2px */
+}
+
+
+.hero-text button{
+    color: var(--neutral-0-white, #FFF);
+text-align: center;
+/* Font Website/Body 1/Medium */
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 28px */
+display: inline-flex;
+padding: 14px 40px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius:30px;
+}
+
+
+
+
+
+
+
+/* X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 375px) {
+
+    
+
+
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {  }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { }
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1366px) {
+
+.navbar .yalla {
+    margin-right: 50px;
+}
+
+
+
+    .hero-text h1{
+
+margin-top: 91px;
+        color: var(--neutral-0-white, #FFF);
+
+/* Font Website/Display/Semi Bold */
+font-family: "Inter";
+font-size: 72px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 100.8px */
+margin-left: 3px;
+    }
+
+    .hero-text-1{
+        color: var(--neutral-100, #E5E5E6);
+margin-top: 32px;
+/* Font Website/H2/Regular */
+font-family: "Inter";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 33.6px */
+    }
+
+    .hero-text button{
+        margin-top: 40px;
+        color: var(--neutral-0-white, #FFF);
+text-align: center;
+padding: 14px 40px;
+/* Font Website/Body 1/Medium */
+font-family: "Inter";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 28px */
+    }
+
+    .hero-text .hero-text-2{
+
+        margin-top: 64px;
+        color: var(--neutral-100, #E5E5E6);
+
+/* Font Website/Body 2/Medium */
+font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 25.2px */
+    }
+
+    .text-reel h2{
+        color: var(--text-main-text, #121212);
+margin-top: 56px;
+        /* Font Website/H1/Semi Bold */
+        font-family: "Inter";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%; /* 67.2px */
+    }
+
+    .text-reel p{
+        color: var(--text-secondary-text, #808080);
+margin-top: 15px;
+/* Font Website/H2/Regular */
+font-family: "Inter";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 33.6px */
+    }
+
+    .reel-couples{
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .reel-couples .reel-1{
+        background: url(image/pexels-asad-photo-maldives-2549089\ 2.png);
+        width: 276px;
+        height: 312px;
+        margin-top: 35px;
+        
+    }
+    .reel-couples .reel-2{
+        background: url(image/tailand.png);
+        width: 276px;
+        height: 312px;
+        margin-top: 35px;
+    }
+
+    .reel-couples .reel-3{
+        background: url(image/ocean-family.png);
+        width: 276px;
+        height: 312px;
+        margin-top: 35px;
+    }
+
+    .reel-couples .reel-4{
+        background: url(image/photograh.png);
+        width: 276px;
+        height: 312px;
+        margin-top: 35px;
+
+    }
+
+    .reel-1 p{
+        color: var(--neutral-0-white, #FFF);
+
+/* Font Responsive/H 1/Semi Bold */
+font-family: "Inter";
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 39.2px */
+margin-top:251px ;
+margin-left: 83px;
+    }
+
+    .reel-2 p{
+        color: var(--neutral-0-white, #FFF);
+        margin-top:251px ;
+        /* Font Responsive/H 1/Semi Bold */
+        font-family: "Inter";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%; /* 39.2px */
+        margin-left: 24px;
+    }
+
+    .reel-3 p{
+        color: var(--neutral-0-white, #FFF);
+        margin-top:251px ;
+        margin-left: 95px;
+/* Font Responsive/H 1/Semi Bold */
+font-family: "Inter";
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 39.2px */
+    }
+
+    .reel-4 p{
+        color: var(--neutral-0-white, #FFF);
+        margin-top:251px ;
+        margin-left: 62px;
+/* Font Responsive/H 1/Semi Bold */
+font-family: "Inter";
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 39.2px */
+    }
+
+    .sec-4 h2{
+        color: var(--text-main-text, #121212);
+margin-top: 120px;
+/* Font Website/H1/Semi Bold */
+font-family: "Inter";
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 67.2px */
+    }
+
+    .sec-4 p{
+
+    color: var(--text-secondary-text, #808080);
+margin-top: 15px;
+/* Font Website/H2/Regular */
+font-family: "Inter";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 33.6px */
+}
+
+.sec-4 .row{
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-4 .row button{
+    color: var(--neutral-0-white, #FFF);
+text-align: center;
+padding: 14px 40px;
+border-radius: 30px;
+/* Font Website/Body 1/Medium */
+font-family: "Inter";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 28px */
+margin-top: 35px;
+}
+
+.sec-5 .row{
+   width: 1200px; 
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+
+
+.sec-5 .row img{
+    width: 378px;
+height: 272px;
+
+}
+
+.sec-5 .row .card-body{
+    margin-left: 8px;
+    
+}
+
+
+
+.sec-5 .row .card-text{
+
+    color: var(--text-main-text, #121212);
+text-align: start;
+/* Font Responsive/Display/Medium */
+font-family: "Inter";
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 44.8px */
+}
+
+.sec-5 .row .number-card{
+    text-align: start;
+    color: var(--pink-400-default, #ED4D55);
+
+/* Font Website/H2/Regular */
+font-family: "Inter";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 33.6px */
+}
+
+.sec-5 .row .card-text-2{
+    color: var(--text-secondary-text, #808080);
+text-align: start;
+/* Font Responsive/Body 1/Regular */
+font-family: "Inter";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 28px */
+}
+
+ .sec-5 .card{
+    border-radius: 16px;
+background: var(--neutral-0-white, #FFF);
+box-shadow: 0px 8px 16px -6px rgba(20, 23, 26, 0.04), 0px 6px 8px -6px rgba(20, 23, 26, 0.06);
+width: 378px;
+ }
+
+
+ .sec-5 button{
+    
+    padding: 14px 40px;
+    border-radius: 30px;
+    margin-top: 56px;
+    text-align: center;
+    margin-left: 500px;
+    /* Font Website/Body 1/Medium */
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 28px */
+    
+
+ }
+
+ 
+ 
+.sec-6a{
+    margin-top: 116px;
+}
+
+
+
+
+.sec-6a .cheap-travel h2{
+    color: var(--text-main-text, #121212);
+margin-top: 116px;
+/* Font Website/H1/Semi Bold */
+font-family: "Inter";
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 67.2px */
+}
+
+.text-cheap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-cheap p{
+    color: var(--text-secondary-text, #808080);
+
+/* Font Website/H2/Regular */
+font-family: "Inter";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 33.6px */
+}
+
+.text-cheap button{
+    padding: 14px 40px;
+text-align: center;
+border-radius: 30px;
+/* Font Website/Body 1/Medium */
+font-family: "Inter";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 28px */
+}
+
+.sec-6 .reel-5{
+    background: url(image/man-mount.png);
+    background-repeat: no-repeat;
+    width: 276px;
+    height: 378px;
+    margin-top: 35px;
+}
+
+.sec-6 .reel-6{
+    background: url(image/taj-mahl.png);
+    background-repeat: no-repeat;
+    width: 276px;
+    height: 378px;
+    margin-top: 35px;
+}
+
+.sec-6 .reel-7{
+    background: url(image/reel-7.png);
+    background-repeat: no-repeat;
+    width: 276px;
+    height: 378px;
+    margin-top:35px;
+}
+
+.sec-6 .reel-8{
+    background: url(image/reel-8.png);
+    background-repeat: no-repeat;
+    width: 276px;
+    height: 378px;
+    margin-top: 35px;
+}
+
+
+.sec-6 .row .bali{
+    margin-top: 287px;
+    margin-left: 12px;
+    text-align: start;
+}
+
+.sec-6 .bali p{
+    color: var(--neutral-0-white, #FFF);
+
+/* Font Responsive/Display/Medium */
+font-family: "Inter";
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 90%; /* 44.8px */
+}
+
+
+.sec-6 .bali span{
+    color: var(--neutral-0-white, #FFF);
+
+/* Font Website/H2/Regular */
+font-family: "Inter";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 50%; /* 33.6px */
+}
+
+.sec-6 .row{
+    width: 1200px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.discount h2{
+    /* Font Website/H1/Medium */
+    font-family: "Inter";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 67.2px */
+    }
+    
+     .discount p{
+        color: var(--neutral-0-white, #FFF);
+    margin-top: 24px;
+    /* Font Website/Body 2/Medium */
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 25.2px */
+    }
+    
+    .discount button{
+        border-radius: 30px;
+        padding: 14px 32px;
+        color: var(--neutral-0-white, #FFF);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    
+    }
+
+
+    .container .discount{
+        margin-top: 40px;
+    }
+    
+
+    .sec-7 .container{
+        background: url(image/pexels-andrea-albanese-397431\ 1.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        height: 360px;
+        display:flex;
+        justify-content: end;
+        border-radius: 16px;
+        width: 100%;
+      
+    }
+
+
+    
+
+
+
+
+
+
+
+
+}
